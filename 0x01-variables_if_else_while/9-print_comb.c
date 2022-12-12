@@ -9,14 +9,13 @@ int main(void)
 
 int j;
 int i;
-	
-	for ( i = 0; i < 10; i++)
+	for (i = 0; i < 20; i++)
 	{
-		for (j = 0; j < 10; j++)
+		putchar((i % 10) + '0');
+		if (i != 19)
 		{
-			putchar(i + '0');
-			putchar(j + '0');
 			putchar(',');
+			putchar(' ');
 		}
 	}
 putchar('\n');
