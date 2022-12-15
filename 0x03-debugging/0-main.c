@@ -2,13 +2,14 @@
 /**
  * main - test if int is positive or negative
  *
- * Retuen: always 0
+ * Return: always 0
  */
 int main(void)
 {
-	int i;
-	i = 0;
+int i;
+i = 0;
 
-	positive_or_negative(i);
-	return (0);
+positive_or_negative(i);
+
+return (0);
 }
