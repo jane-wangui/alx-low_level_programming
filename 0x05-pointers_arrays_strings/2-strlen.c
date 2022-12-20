@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _strlen - calculate the length of a string
+ * _strlen - get the length of a string
  * @s: String value pointer
- * Retun: value of the length of the string
+ * Return: value of the length of the string
  */
 int _strlen(char *s)
 {
