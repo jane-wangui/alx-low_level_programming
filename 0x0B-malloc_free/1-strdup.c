@@ -6,7 +6,7 @@
  * @str: String to dupli
  * Return: duplicated string
  */
-char *_strdup(char *str);
+char *_strdup(char *str)
 {
 	int i;
 	int c = 0;
@@ -27,4 +27,3 @@ char *_strdup(char *str);
 		t[i] = str[i]
 return (t);
 }
-
