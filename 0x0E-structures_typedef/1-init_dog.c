@@ -10,7 +10,7 @@
   */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	if (d == null)
+	if (d == NULL)
 		;
 	else
 	{
@@ -18,3 +18,4 @@ void init_dog(struct dog *d, char *name, float age, char *owner)
 		d->age = age;
 		d->owner = owner;
 	}
+}
