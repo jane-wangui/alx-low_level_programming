@@ -1,9 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _strspn - length of prefix substring
+ * *_strspn - length of prefix substring
  * @s: string to go through
  * @accept: accept bytesReturn: returns unsigned values
+ * Return: the number of bytes
  */
 unsigned int _strspn(char *s, char *accept)
 {
@@ -11,7 +12,7 @@ unsigned int _strspn(char *s, char *accept)
 	int j;
 	unsigned int result = 0;
 
-	for (i = 0; s[i] !='\0'; j++)
+	for (i = 0; s[i] != '\0'; j++)
 	{
 		for (j = 0; s[j] != '\0'; j++)
 		{
@@ -24,6 +25,6 @@ unsigned int _strspn(char *s, char *accept)
 	if (s[j] == '\0')
 		return (result);
 	}
-	return (result);
+	return (0);
 }
 
