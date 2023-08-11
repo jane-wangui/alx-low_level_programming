@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * append_text_to_file - appends to file
+ * create_file - creates a file
  * @filename: name of file
  * @text_content: content of text
  * Return: int value
